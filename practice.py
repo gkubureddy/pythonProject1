@@ -12,10 +12,32 @@ print(temp)
 print([['A', 'Laptop',a.count(['A','Laptop'])],['A','Mouse',a.count(['A','Mouse'])],
       ['B','Laptop',a.count(['B','Laptop'])],['A','Headset',a.count(['A','Headset'])],
       ['B','Headset',a.count(['B','Headset'])]])
-def Extract(new):
-    return [list(set(item[0] for item in new)),list(set([item[-1]  for item in new]))]
-new = a
-print(Extract(new))
+
+# tuple with different data types
+
+a_1 = (4,'shruthi', 2.6)
+b= list(a_1)
+print(b)
+
+#copy method
+
+b_2 = ["apple","bat"]
+c = list( b_2)
+print(c)
+
+#join method
+
+a = "Hello"
+
+c = ' '.join(i for i in a)
+print(c)
+
+#replace method
+a = "Vn2solutions"
+print("*replace method*")
+b = a.replace('Vn2','Vn2  ')
+print(b)
+
 
 
 

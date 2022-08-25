@@ -1,4 +1,5 @@
-from binarytree import build
-nodes = [4,7,2,9,6,3,1]
-binarytree = build(nodes)
-print(binarytree)
+# Append in tuple by list
+a = (2,3,4,[1])
+a[3].append(2)
+print(a)
+
